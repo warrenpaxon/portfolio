@@ -6,6 +6,10 @@ module.exports = {
     extend: {},
     fontFamily: {
       Bungee: ['Bungee', 'cursive'],
+      balsamiq: ['"Balsamiq Sans"', 'cursive'],
+      Geologica: ['Geologica', 'sans-serif'],
+      sans: ['Inter', 'sans-serif'],
+
     },
   },
   plugins: [],

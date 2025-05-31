@@ -5,3 +5,39 @@
 body {
   @apply bg-gradient-to-b from-blue-400 to-white dark:from-gray-900 dark:to-black min-h-screen;
 }
+
+.custom-image-gallery .image-gallery-slide img {
+  width: auto;
+  max-height: 800px;
+  margin: 0 auto;
+}
+
+.image-gallery-thumbnail {
+  width: 80px !important;
+  height: 50px !important;
+  padding: 0 !important;
+  /* display: flex !important; */
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: none !important;
+  border: none !important;
+  transition: border 0.2s ease;
+}
+
+.image-gallery-thumbnail .image-gallery-thumbnail-inner {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+.image-gallery-thumbnail img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+.image-gallery-thumbnail.active {
+  border: 2px solid #3b82f6 !important; /* Change color as needed */
+  transform: scale(1.05); /* Slight zoom effect */
+}
