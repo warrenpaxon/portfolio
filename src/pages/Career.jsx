@@ -8,7 +8,7 @@ import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 const timelineData = [
   {
     type: 'career',
-    date: '2023.1 - Present',
+    date: '2023.1 - 2025.7',
     company: 'RackSpace',
     title: 'Senior Software Engineer',
     logo: '/assets/images/career/RackSpace_logo.png',
@@ -60,7 +60,7 @@ const timelineData = [
   },
   {
     type: 'education',
-    date: '2019.1 - 2014.12',
+    date: '2009 - 2014',
     title: 'B.S. in Computer Science',
     company: 'California Polytechnic State University, San Luis Obispo',
     degree: 'B.S. in Computer Science',

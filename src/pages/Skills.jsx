@@ -5,12 +5,12 @@ const categorizedSkills = [
     title: 'Languages',
     icon: 'devicon-python-plain',
     skills: [
+      { iconClass: 'devicon-javascript-plain colored', label: 'JavaScript' },
+      { iconClass: 'devicon-typescript-plain colored', label: 'TypeScript' },
       { iconClass: 'devicon-python-plain colored', label: 'Python' },
       { iconClass: 'devicon-java-plain colored', label: 'Java' },
       { iconClass: 'devicon-csharp-plain', label: 'C#' },
       { iconClass: 'devicon-cplusplus-plain colored', label: 'C++' },
-      { iconClass: 'devicon-javascript-plain colored', label: 'JavaScript' },
-      { iconClass: 'devicon-typescript-plain colored', label: 'TypeScript' },
     ],
   },
   {
