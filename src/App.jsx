@@ -12,7 +12,7 @@ const Career = lazy(() => import('./pages/Career'));
 const Contact = lazy(() => import('./pages/Contact'));
 
 const App = () => {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
 
   useEffect(() => {
     document.documentElement.classList.toggle('dark', theme === 'dark');
